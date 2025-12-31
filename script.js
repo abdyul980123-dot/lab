@@ -47,10 +47,10 @@ if (form) {
         // Simple validation
         if (name && email && date && details) {
             // In a real application, you would send this data to a server
-            alert(`Thank you ${name}! We'll contact you soon at ${email}`);
+            alert(`Спасибо ${name}! Мы свяжемся с вами в скором времени по адресу ${email}`);
             form.reset();
         } else {
-            alert('Please fill in all fields');
+            alert('Пожалуйста, заполните все поля');
         }
     });
 }
@@ -147,4 +147,4 @@ window.addEventListener('scroll', () => {
     }
 });
 
-console.log('DJ Pro Website - Ready!');
+console.log('DJ Pro Веб-сайт - Готов!');
